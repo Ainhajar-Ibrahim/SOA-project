@@ -1,0 +1,2 @@
+ses_client = boto3.client('ses',region_name="eu-west-3",    aws_access_key_id="AKIAZFYNHUTCXGCYAPSG",
+    aws_secret_access_key="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")

@@ -1,0 +1,48 @@
+{
+  "homepage": "http://abdrrahimelh.github.io/encrypt_app",
+  "name": "react-chat",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "crypto-js": "^4.1.1",
+    "firebase": "^7.20.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-firebase-hooks": "^2.2.0",
+    "react-images-upload": "^1.2.8",
+    "react-scripts": "3.4.3",
+    "sha256": "^0.2.0",
+    "sqlite3": "^5.0.2",
+    "steganogre": "^0.2.0",
+    "string-crypto": "^2.0.2"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
